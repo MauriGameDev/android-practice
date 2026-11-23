@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Beginner Question 1 -->
+    <string-array name="python_q1_options">
+        <item>input()</item>
+        <item>print()</item>
+        <item>len()</item>
+        <item>range()</item>
+    </string-array>
+
+    <!-- Beginner Question 2 -->
+    <string-array name="python_q2_options">
+        <item>int</item>
+        <item>str</item>
+        <item>bool</item>
+        <item>list</item>
+    </string-array>
+
+    <!-- Intermediate Question 3 -->
+    <string-array name="python_q3_options">
+        <item>[10, 20]</item>
+        <item>[20, 30]</item>
+        <item>[20, 30, 40]</item>
+        <item>[30, 40]</item>
+    </string-array>
+
+    <!-- Intermediate Question 4 -->
+    <string-array name="python_q4_options">
+        <item>A list of strings in reverse order</item>
+        <item>A pair of index and value per item</item>
+        <item>The total number of items only</item>
+        <item>Only the unique values in the list</item>
+    </string-array>
+
+    <!-- Advanced Question 5 -->
+    <string-array name="python_q5_options">
+        <item>[1, 2] and then [1, 2]</item>
+        <item>[] and then [1, 2]</item>
+        <item>[1, 2] and then []</item>
+        <item>2 and then 2</item>
+    </string-array>
+
+</resources>

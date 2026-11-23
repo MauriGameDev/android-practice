@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Study Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/study_title"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <!-- Study Instructions -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/study_instructions"/>
+
+        <!-- Topic Selection -->
+        <RadioGroup
+            android:id="@+id/topicGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <!-- Python -->
+            <RadioButton
+                android:id="@+id/pythonTopic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/topic_python"/>
+
+            <!-- Cybersecurity -->
+            <RadioButton
+                android:id="@+id/cybersecurityTopic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/topic_cybersecurity"/>
+
+            <!-- C# -->
+            <RadioButton
+                android:id="@+id/csharpTopic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/topic_csharp"/>
+
+        </RadioGroup>
+
+        <!-- Selected Topic Heading -->
+        <TextView
+            android:id="@+id/studyTopicHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <!-- Selected Topic Study Material -->
+        <TextView
+            android:id="@+id/studyMaterial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="4dp"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</ScrollView>

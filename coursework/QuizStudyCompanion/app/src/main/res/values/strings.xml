@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application -->
+    <string name="app_name">Quiz &amp; Study Companion</string>
+    <string name="app_title">Quiz &amp; Study Companion</string>
+    <string name="app_description">Test your knowledge in Python, Cybersecurity, and C#.</string>
+    <string name="home_title">Quiz &amp; Study Companion</string>
+    <string name="home_description">Practice programming and security concepts. Take a Python quiz, review study topics, or check your quiz history.</string>
+
+    <!-- Main Screen -->
+    <string name="start_quiz">Start Python Quiz</string>
+    <string name="study_topics">Select Study Topics</string>
+    <string name="quiz_history">Quiz History</string>
+    <string name="return_home">Return to Main</string>
+
+    <!-- Quiz Screen -->
+    <string name="quiz_title">Python Knowledge Quiz</string>
+    <string name="quiz_instructions">Five questions: 2 beginner, 2 intermediate, and 1 advanced.</string>
+
+    <string name="topic_python">Python</string>
+    <string name="topic_cybersecurity">Cybersecurity</string>
+    <string name="topic_csharp">C#</string>
+
+    <!-- Question Progress and Difficulty -->
+    <string name="question_progress">Question %1$d of %2$d</string>
+    <string name="difficulty_format">Difficulty: %1$s</string>
+    <string name="beginner">Beginner</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="advanced">Advanced</string>
+    <string name="score_status">Score: %1$d</string>
+
+    <!-- Quiz Buttons and Feedback -->
+    <string name="submit_answer">Submit Answer</string>
+    <string name="next_question">Next Question</string>
+    <string name="finish_quiz">Finish Quiz</string>
+    <string name="choose_answer">Select an answer before submitting.</string>
+    <string name="correct_feedback">Correct! Well done.</string>
+    <string name="incorrect_feedback">Not quite. Correct answer: %1$s</string>
+
+    <!-- Result Screen -->
+    <string name="result_title">Quiz Results</string>
+    <string name="result_heading">%1$s Quiz Complete!</string>
+    <string name="result_score">Your final score: %1$d / %2$d</string>
+    <string name="result_explanation">Great practice! Return to the main screen to study or try again.</string>
+
+    <!-- Study Screen -->
+    <string name="study_title">Study Topics</string>
+    <string name="study_instructions">Choose a topic to view introductory study notes.</string>
+
+    <string name="study_python_title">Python Study Notes</string>
+    <string name="study_cybersecurity_title">Cybersecurity Study Notes</string>
+    <string name="study_csharp_title">C# Study Notes</string>
+
+    <!-- Python Study Material -->
+    <string name="study_python_material">BEGINNER\n• print() displays text or values in the console. Example: print(\"Hello\")\n• bool is the data type for True and False.\n\nINTERMEDIATE\n• List slicing uses [start:stop] and excludes the stop index. Example: [10, 20, 30, 40][1:3] gives [20, 30].\n• enumerate() provides an index and value while looping through a sequence.\n\nADVANCED\n• A generator produces values as it is iterated. After you fully consume a generator, it is exhausted. Calling list() on that same exhausted generator returns an empty list.</string>
+
+    <!-- Cybersecurity Study Material -->
+    <string name="study_cybersecurity_material">• Confidentiality: protect information from unauthorized access.\n\n• Integrity: protect data from unauthorized changes.\n\n• Availability: keep systems and information accessible when needed.\n\n• Multi-factor authentication (MFA): use more than one authentication factor.\n\n• Phishing: deceptive communication intended to steal data or trick users into unsafe actions.\n\n• Least privilege: give users and programs only the access they need.</string>
+
+    <!-- C# Study Material -->
+    <string name="study_csharp_material">• C# is a strongly typed programming language commonly used with .NET.\n\n• Console.WriteLine(\"Hello\"); writes a line to the console.\n\n• int stores whole numbers; string stores text; bool stores true or false.\n\n• A class defines a type, and an object is an instance of a class.\n\n• Methods organize reusable actions.\n\n• Exception handling uses try, catch, and finally blocks.</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Quiz History</string>
+    <string name="history_placeholder">No saved results yet. Persistent quiz history will be added in Milestone 3.</string>
+    <string name="no_history">No saved results yet.</string>
+
+    <!-- Python Quiz Questions -->
+
+    <!-- Beginner Question 1 -->
+    <string name="python_q1">Which Python function displays text on the screen?</string>
+
+    <!-- Beginner Question 2 -->
+    <string name="python_q2">Which Python type represents True or False?</string>
+
+    <!-- Intermediate Question 3 -->
+    <string name="python_q3">What is the result of [10, 20, 30, 40][1:3]?</string>
+
+    <!-- Intermediate Question 4 -->
+    <string name="python_q4">What does enumerate([\"red\", \"blue\"]) provide when used in a for loop?</string>
+
+    <!-- Advanced Question 5 -->
+    <string name="python_q5">What is printed by this code?\n\ndef numbers():\n    yield 1\n    yield 2\n\ng = numbers()\nprint(list(g))\nprint(list(g))</string>
+
+</resources>
