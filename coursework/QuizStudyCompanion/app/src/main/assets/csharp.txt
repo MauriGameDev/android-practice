@@ -1,0 +1,196 @@
+
+C# STUDY GUIDE
+==============
+
+BEGINNER LEVEL
+
+1. DISPLAYING CONSOLE OUTPUT
+
+C# uses Console.WriteLine() to display a line
+of text in the console.
+
+Example:
+Console.WriteLine("Hello, World!");
+
+Output:
+Hello, World!
+
+Common console methods:
+
+Console.WriteLine():
+Displays text and moves to the next line.
+
+Console.Write():
+Displays text without automatically adding a new line.
+
+Console.ReadLine():
+Reads a line of input from the user.
+
+Console.Clear():
+Clears the console screen.
+
+Study Tip:
+Use Console.WriteLine() when you want to display
+a complete line of output.
+
+
+2. CLASSES AND OBJECTS
+
+C# is an object-oriented programming language.
+
+The class keyword defines a class.
+
+Example:
+class Student
+{
+    public string Name;
+    public int Age;
+}
+
+A class acts as a blueprint for creating objects.
+
+Example:
+Student student1 = new Student();
+
+student1.Name = "Alex";
+student1.Age = 21;
+
+Remember:
+
+class = Defines a class.
+new = Creates an object.
+return = Returns a value from a method.
+using = Imports namespaces or manages resources.
+
+Study Tip:
+Look for the class keyword when defining classes.
+
+
+INTERMEDIATE LEVEL
+
+3. COMPOUND ASSIGNMENT OPERATORS
+
+C# supports operators that update a variable
+using its current value.
+
+Example:
+int score = 10;
+
+score += 5;
+
+Console.WriteLine(score);
+
+Output:
+15
+
+The += operator means:
+Add the value on the right to the existing variable.
+
+Equivalent code:
+score = score + 5;
+
+Other compound operators:
+
+-= Subtract and assign
+*= Multiply and assign
+/= Divide and assign
+
+Study Tip:
+When solving compound assignment questions,
+start with the original value and apply the operation.
+
+
+4. GENERIC LISTS
+
+C# uses List<T> to store collections of values
+with a specified element type.
+
+Example:
+List<int> scores = new List<int>();
+
+scores.Add(80);
+scores.Add(90);
+scores.Add(100);
+
+The <int> means the list stores integers.
+
+Unlike arrays, a List<T> can grow or shrink
+when elements are added or removed.
+
+Example:
+scores.Remove(90);
+
+The list now contains:
+80, 100
+
+Common methods:
+
+Add():
+Adds an item.
+
+Remove():
+Removes a matching item.
+
+Count:
+Returns the number of items.
+
+Study Tip:
+Arrays have a fixed length, while List<T>
+supports changing the number of elements.
+
+
+ADVANCED LEVEL
+
+5. NULLABLE TYPES AND NULL-COALESCING
+
+Some value types can be made nullable using ?.
+
+Example:
+int? score = null;
+
+This means score can contain an integer or null.
+
+The ?? operator is called the null-coalescing
+operator.
+
+It provides a fallback value when the value
+on the left is null.
+
+Example:
+int? score = null;
+
+Console.WriteLine(score ?? 50);
+
+Output:
+50
+
+Another example:
+int? score = 90;
+
+Console.WriteLine(score ?? 50);
+
+Output:
+90
+
+Remember:
+If the value on the left is NOT null,
+the original value is used.
+
+If the value on the left IS null,
+the fallback value is used.
+
+Study Tip:
+For expressions using ??, first determine
+whether the left-hand value is null.
+
+
+QUICK REVIEW
+============
+
+- Console.WriteLine() displays console output.
+- class defines a class.
+- new creates an object.
+- += adds to an existing variable.
+- List<T> can grow or shrink.
+- int? can represent an integer or null.
+- ?? provides a fallback when a value is null.

@@ -11,8 +11,9 @@
         android:orientation="vertical"
         android:padding="24dp">
 
-        <!-- Quiz Title -->
+        <!-- Quiz Title: Changes based on selected topic -->
         <TextView
+            android:id="@+id/quizTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/quiz_title"

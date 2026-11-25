@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Additional Quiz Titles -->
+    <string name="cybersecurity_quiz_title">Cybersecurity Knowledge Quiz</string>
+    <string name="csharp_quiz_title">C# Knowledge Quiz</string>
+
+    <!-- Main Screen Quiz Buttons -->
+    <string name="start_cybersecurity_quiz">Start Cybersecurity Quiz</string>
+    <string name="start_csharp_quiz">Start C# Quiz</string>
+
+    <!-- =================================== -->
+    <!-- CYBERSECURITY QUIZ                  -->
+    <!-- =================================== -->
+
+    <!-- Question 1: Beginner -->
+    <string name="cyber_q1">
+        What does multi-factor authentication (MFA) add to account security?
+    </string>
+
+    <string-array name="cyber_q1_options">
+        <item>A longer username</item>
+        <item>Another verification factor</item>
+        <item>Automatic file encryption</item>
+        <item>Unlimited login attempts</item>
+    </string-array>
+
+    <!-- Correct Answer: Index 1 -->
+
+    <!-- Question 2: Beginner -->
+    <string name="cyber_q2">
+        What does availability mean in the CIA Triad?
+    </string>
+
+    <string-array name="cyber_q2_options">
+        <item>Keeping information secret</item>
+        <item>Preventing unauthorized changes</item>
+        <item>Making systems accessible when needed</item>
+        <item>Requiring passwords for every file</item>
+    </string-array>
+
+    <!-- Correct Answer: Index 2 -->
+
+    <!-- Question 3: Intermediate -->
+    <string name="cyber_q3">
+        You receive an unexpected email asking you to reset your password.
+        What is the safest first action?
+    </string>
+
+    <string-array name="cyber_q3_options">
+        <item>Visit the official website directly to verify the request</item>
+        <item>Click the email link immediately</item>
+        <item>Reply with your current password</item>
+        <item>Forward the email to all coworkers</item>
+    </string-array>
+
+    <!-- Correct Answer: Index 0 -->
+
+    <!-- Question 4: Intermediate -->
+    <string name="cyber_q4">
+        What is the principle of least privilege?
+    </string>
+
+    <string-array name="cyber_q4_options">
+        <item>Giving every employee administrator access</item>
+        <item>Granting only the permissions needed for a task</item>
+        <item>Allowing users to share their passwords</item>
+        <item>Removing authentication from internal systems</item>
+    </string-array>
+
+    <!-- Correct Answer: Index 1 -->
+
+    <!-- Question 5: Advanced -->
+    <string name="cyber_q5">
+        Which approach is recommended for securely storing user passwords?
+    </string>
+
+    <string-array name="cyber_q5_options">
+        <item>Store passwords as plain text</item>
+        <item>Encrypt passwords with a publicly shared key</item>
+        <item>Store uniquely salted hashes using a password-hashing algorithm</item>
+        <item>Store passwords directly in application logs</item>
+    </string-array>
+
+    <!-- Correct Answer: Index 2 -->
+
+
+    <!-- =================================== -->
+    <!-- C# QUIZ                             -->
+    <!-- =================================== -->
+
+    <!-- Question 1: Beginner -->
+    <string name="csharp_q1">
+        Which C# statement prints a line of text to the console?
+    </string>
+
+    <string-array name="csharp_q1_options">
+        <item>Console.ReadLine();</item>
+        <item>Console.Clear();</item>
+        <item>Console.WriteLine("Hello");</item>
+        <item>Console.Beep();</item>
+    </string-array>
+
+    <!-- Correct Answer: Index 2 -->
+
+    <!-- Question 2: Beginner -->
+    <string name="csharp_q2">
+        Which C# keyword is used to define a class?
+    </string>
+
+    <string-array name="csharp_q2_options">
+        <item>class</item>
+        <item>new</item>
+        <item>using</item>
+        <item>return</item>
+    </string-array>
+
+    <!-- Correct Answer: Index 0 -->
+
+    <!-- Question 3: Intermediate -->
+    <string name="csharp_q3">
+        What does this C# code print?
+        int x = 5; x += 3; Console.WriteLine(x);
+    </string>
+
+    <string-array name="csharp_q3_options">
+        <item>3</item>
+        <item>5</item>
+        <item>8</item>
+        <item>53</item>
+    </string-array>
+
+    <!-- Correct Answer: Index 2 -->
+
+    <!-- Question 4: Intermediate -->
+    <string name="csharp_q4">
+        Which statement about List&lt;int&gt; in C# is true?
+    </string>
+
+    <string-array name="csharp_q4_options">
+        <item>It stores only strings</item>
+        <item>It can grow or shrink as elements are added or removed</item>
+        <item>Its size must always remain fixed</item>
+        <item>It cannot store more than one number</item>
+    </string-array>
+
+    <!-- Correct Answer: Index 1 -->
+
+    <!-- Question 5: Advanced -->
+    <string name="csharp_q5">
+        What does this C# code print?
+        int? value = null; Console.WriteLine(value ?? 10);
+    </string>
+
+    <string-array name="csharp_q5_options">
+        <item>0</item>
+        <item>null</item>
+        <item>A compilation error</item>
+        <item>10</item>
+    </string-array>
+
+    <!-- Correct Answer: Index 3 -->
+
+</resources>

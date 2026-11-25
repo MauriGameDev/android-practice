@@ -1,0 +1,153 @@
+
+PYTHON STUDY GUIDE
+==================
+
+BEGINNER LEVEL
+
+1. DISPLAYING OUTPUT
+
+Python uses the print() function to display information
+on the screen.
+
+Example:
+print("Hello, World!")
+print(10 + 5)
+
+Output:
+Hello, World!
+15
+
+Remember:
+print() displays output.
+input() collects information from the user.
+len() returns the length of a collection.
+
+
+2. BOOLEAN DATA TYPES
+
+Python uses the bool data type to represent True or False.
+
+Example:
+is_student = True
+is_finished = False
+
+print(type(is_student))
+
+Output:
+<class 'bool'>
+
+Booleans are useful for decisions and conditions.
+
+Example:
+age = 20
+print(age >= 18)
+
+Output:
+True
+
+
+INTERMEDIATE LEVEL
+
+3. LIST SLICING
+
+A list stores multiple values in order.
+
+Example:
+numbers = [10, 20, 30, 40, 50]
+
+Each item has an index:
+10 = index 0
+20 = index 1
+30 = index 2
+40 = index 3
+50 = index 4
+
+Slicing syntax:
+list[start:stop]
+
+The starting index is included.
+The stopping index is NOT included.
+
+Example:
+print(numbers[1:4])
+
+Output:
+[20, 30, 40]
+
+Study Tip:
+When answering slicing questions, start at the first
+index and stop BEFORE the ending index.
+
+
+4. THE ENUMERATE() FUNCTION
+
+The enumerate() function allows you to access both
+the index and value while looping through a list.
+
+Example:
+languages = ["Python", "Java", "C#"]
+
+for index, language in enumerate(languages):
+    print(index, language)
+
+Output:
+0 Python
+1 Java
+2 C#
+
+Remember:
+enumerate() produces index-value pairs.
+It does not sort the list or remove duplicates.
+
+
+ADVANCED LEVEL
+
+5. GENERATORS AND YIELD
+
+A generator produces values one at a time using
+the yield keyword.
+
+Example:
+def numbers():
+    yield 5
+    yield 10
+    yield 15
+
+generator = numbers()
+
+print(list(generator))
+
+Output:
+[5, 10, 15]
+
+Generators remember where they stopped.
+
+IMPORTANT:
+A generator becomes exhausted after all its
+values have been consumed.
+
+Example:
+print(list(generator))
+
+Output:
+[]
+
+The second list is empty because the generator
+was already consumed.
+
+Study Tip:
+If you see list(generator) called twice using
+the same generator object, check whether the
+first call already consumed its values.
+
+
+QUICK REVIEW
+============
+
+- print() displays text or values.
+- bool represents True or False.
+- List indexes begin at 0.
+- Slicing excludes the stopping index.
+- enumerate() provides index-value pairs.
+- yield creates generator values.
+- An exhausted generator produces no more values.

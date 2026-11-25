@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_topics_heading">
+        Select a Study Topic
+    </string>
+
+    <string name="fragment_topic_python">Python</string>
+
+    <string name="fragment_topic_cybersecurity">
+        Cybersecurity
+    </string>
+
+    <string name="fragment_topic_csharp">C#</string>
+
+    <string name="fragment_loading">Loading...</string>
+
+    <string name="fragment_load_error">
+        Unable to load study material.
+    </string>
+
+</resources>

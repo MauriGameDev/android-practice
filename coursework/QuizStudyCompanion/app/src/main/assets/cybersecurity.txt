@@ -1,0 +1,179 @@
+
+CYBERSECURITY STUDY GUIDE
+=========================
+
+BEGINNER LEVEL
+
+1. MULTI-FACTOR AUTHENTICATION (MFA)
+
+Multi-factor authentication improves account security
+by requiring verification from more than one category.
+
+Common authentication factors:
+
+Something you KNOW:
+- Password
+- PIN
+
+Something you HAVE:
+- Security key
+- Authenticator device
+
+Something you ARE:
+- Fingerprint
+- Facial recognition
+
+Example:
+A user enters a password and confirms the login
+using an authenticator application.
+
+Why is MFA important?
+
+Even if someone steals a password, they may still
+need another verification factor to log in.
+
+Study Tip:
+MFA adds another layer of identity verification.
+
+
+2. THE CIA TRIAD
+
+The CIA Triad represents three important goals
+of information security.
+
+C = Confidentiality
+I = Integrity
+A = Availability
+
+Confidentiality:
+Information should only be accessible to
+authorized individuals.
+
+Example:
+Only authorized employees can read payroll records.
+
+Integrity:
+Information should remain accurate and protected
+against unauthorized modifications.
+
+Example:
+Preventing someone from changing financial records.
+
+Availability:
+Systems and information should be accessible
+to authorized users when needed.
+
+Example:
+Keeping a company website running during
+high traffic or a hardware failure.
+
+Study Tip:
+Availability focuses on reliable access to systems
+and information.
+
+
+INTERMEDIATE LEVEL
+
+3. PHISHING ATTACKS
+
+Phishing occurs when attackers use deceptive
+messages to trick people into revealing information
+or performing unsafe actions.
+
+Common warning signs:
+- Unexpected password reset requests
+- Suspicious email links
+- Urgent requests for personal information
+- Messages pretending to be trusted organizations
+
+Example:
+You receive an unexpected email saying your
+bank account is locked.
+
+The email asks you to click a link and log in.
+
+Safer response:
+Open the bank's official website directly or
+contact the organization through a trusted channel.
+
+Never provide your password in response to
+an unexpected email.
+
+Study Tip:
+Verify unexpected requests independently before
+clicking links or entering credentials.
+
+
+4. PRINCIPLE OF LEAST PRIVILEGE
+
+The principle of least privilege means giving
+users only the permissions required to perform
+their assigned tasks.
+
+Example:
+A customer service employee may need access
+to customer orders but not payroll information.
+
+A system administrator may require additional
+permissions for specific administrative duties.
+
+Benefits:
+- Limits unauthorized access
+- Reduces potential damage from compromised accounts
+- Protects sensitive information
+
+Study Tip:
+Users should receive the minimum access necessary
+to complete their work.
+
+
+ADVANCED LEVEL
+
+5. SECURE PASSWORD STORAGE
+
+Applications should not store user passwords
+as plain text.
+
+Instead, passwords should be processed using
+a dedicated password-hashing algorithm.
+
+Examples:
+- Argon2id
+- bcrypt
+- scrypt
+
+These algorithms are designed to make password
+guessing more expensive for attackers.
+
+What is a salt?
+
+A salt is a unique random value added to the
+password-hashing process.
+
+Each password should have its own salt.
+
+Why use salts?
+- Identical passwords can produce different hashes.
+- Precomputed password attacks become less effective.
+
+Important:
+Hashing and encryption are different.
+
+Encryption is designed to be reversible with a key.
+Password hashing is designed to be one-way.
+
+Study Tip:
+Secure password storage uses a dedicated
+password-hashing algorithm with a unique salt.
+
+
+QUICK REVIEW
+============
+
+- MFA requires multiple authentication factors.
+- Confidentiality protects information from disclosure.
+- Integrity protects information from improper changes.
+- Availability ensures systems can be accessed.
+- Phishing uses deceptive messages.
+- Least privilege limits user permissions.
+- Passwords should use salted password hashing.
